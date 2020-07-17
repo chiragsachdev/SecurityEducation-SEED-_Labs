@@ -1,0 +1,4 @@
+#!/bin/bash
+gcc -fPIC -g -c mylib.c
+gcc -shared -o libmylib.so.1.0.1 mylib.o -lc
+

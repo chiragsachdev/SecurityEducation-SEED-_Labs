@@ -1,0 +1,52 @@
+GNU gdb (Ubuntu 7.11.1-0ubuntu1~16.04) 7.11.1
+Copyright (C) 2016 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "i686-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+<http://www.gnu.org/software/gdb/documentation/>.
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from vuln_prog...done.
+Breakpoint 1 at 0x80484c1: file vuln_prog.c, line 14.
+[2J[H[;34m[----------------------------------registers-----------------------------------][0m
+[m[;32mEAX[0m: [;34m0xbfffe9b7[0m --> 0x90909090 
+[;32mEBX[0m: 0x0 
+[;32mECX[0m: [;34m0x804b0a0[0m --> 0x0 
+[;32mEDX[0m: 0x205 
+[;32mESI[0m: [;34m0xb7fba000[0m --> 0x1b1db0 
+[;32mEDI[0m: [;34m0xb7fba000[0m --> 0x1b1db0 
+[;32mEBP[0m: [;34m0xbfffe998[0m --> [;34m0xbfffebc8[0m --> 0x0 
+[;32mESP[0m: [;34m0xbfffe970[0m --> [;31m0xb7fe96eb[0m (<_dl_fixup+11>:	add    esi,0x15915)
+[;32mEIP[0m: [;31m0x80484c1[0m (<bof+6>:	sub    esp,0x8)[0m
+[m[;32mEFLAGS[0m: 0x282 ([;32mcarry[0m [;32mparity[0m [;32madjust[0m [;32mzero[0m [;1;31mSIGN[0m [;32mtrap[0m [;1;31mINTERRUPT[0m [;32mdirection[0m [;32moverflow[0m)[0m
+[m[;34m[-------------------------------------code-------------------------------------][0m[0m
+[m   0x80484bb <bof>:[;2m	push   ebp[0m
+   0x80484bc <bof+1>:[;2m	mov    ebp,esp[0m
+   0x80484be <bof+3>:[;2m	sub    esp,0x28[0m
+=> 0x80484c1 <bof+6>:[;1;32m	sub    esp,0x8[0m
+   0x80484c4 <bof+9>:[m	push   DWORD PTR [ebp+0x8][0m
+   0x80484c7 <bof+12>:[m	lea    eax,[ebp-0x20][0m
+   0x80484ca <bof+15>:[m	push   eax[0m
+   0x80484cb <bof+16>:[;1;4;31m	call   0x8048370 <strcpy@plt>[0m[0m
+[m[;34m[------------------------------------stack-------------------------------------][0m[0m
+[m0000| [;34m0xbfffe970[0m --> [;31m0xb7fe96eb[0m (<_dl_fixup+11>:	add    esi,0x15915)[0m
+[m0004| [;34m0xbfffe974[0m --> 0x0 [0m
+[m0008| [;34m0xbfffe978[0m --> [;34m0xb7fba000[0m --> 0x1b1db0 [0m
+[m0012| [;34m0xbfffe97c[0m --> [;34m0xb7ffd940[0m (0xb7ffd940)[0m
+[m0016| [;34m0xbfffe980[0m --> [;34m0xbfffebc8[0m --> 0x0 [0m
+[m0020| [;34m0xbfffe984[0m --> [;31m0xb7feff10[0m (<_dl_runtime_resolve+16>:	pop    edx)[0m
+[m0024| [;34m0xbfffe988[0m --> [;31m0xb7e6688b[0m (<__GI__IO_fread+11>:	add    ebx,0x153775)[0m
+[m0028| [;34m0xbfffe98c[0m --> 0x0 [0m
+[;34m[------------------------------------------------------------------------------][0m
+[mLegend: [;31mcode[0m, [;34mdata[0m, [;32mrodata[0m, value[0m
+
+Breakpoint 1, bof (
+    str=0xbfffe9b7 '\220' <repeats 48 times>, "d\353\377\277", '\220' <repeats 148 times>...) at vuln_prog.c:14
+14	    strcpy(buffer, str);
+$1 = (char (*)[24]) 0xbfffe978

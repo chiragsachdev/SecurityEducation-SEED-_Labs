@@ -1,0 +1,7 @@
+ASCII:	initialv
+HEX:	696e697469616c76
+
+ASCII:	initialvectoraes
+HEX:	696e697469616c766563746f72616573
+
+

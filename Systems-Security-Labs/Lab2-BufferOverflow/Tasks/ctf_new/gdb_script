@@ -1,0 +1,4 @@
+b bof
+run
+p $ebp
+q

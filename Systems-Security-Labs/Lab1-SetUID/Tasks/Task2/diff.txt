@@ -1,0 +1,150 @@
+XDG_VTNR=7							XDG_VTNR=7
+ORBIT_SOCKETDIR=/tmp/orbit-seed					ORBIT_SOCKETDIR=/tmp/orbit-seed
+XDG_SESSION_ID=c1						XDG_SESSION_ID=c1
+XDG_GREETER_DATA_DIR=/var/lib/lightdm-data/seed			XDG_GREETER_DATA_DIR=/var/lib/lightdm-data/seed
+IBUS_DISABLE_SNOOPER=1						IBUS_DISABLE_SNOOPER=1
+TERMINATOR_UUID=urn:uuid:df867526-8a45-4a8c-9dab-01c26f797e71	TERMINATOR_UUID=urn:uuid:df867526-8a45-4a8c-9dab-01c26f797e71
+CLUTTER_IM_MODULE=xim						CLUTTER_IM_MODULE=xim
+SESSION=ubuntu							SESSION=ubuntu
+GIO_LAUNCHED_DESKTOP_FILE_PID=2910				GIO_LAUNCHED_DESKTOP_FILE_PID=2910
+ANDROID_HOME=/home/seed/android/android-sdk-linux		ANDROID_HOME=/home/seed/android/android-sdk-linux
+GPG_AGENT_INFO=/home/seed/.gnupg/S.gpg-agent:0:1		GPG_AGENT_INFO=/home/seed/.gnupg/S.gpg-agent:0:1
+TERM=xterm							TERM=xterm
+SHELL=/bin/bash							SHELL=/bin/bash
+DERBY_HOME=/usr/lib/jvm/java-8-oracle/db			DERBY_HOME=/usr/lib/jvm/java-8-oracle/db
+QT_LINUX_ACCESSIBILITY_ALWAYS_ON=1				QT_LINUX_ACCESSIBILITY_ALWAYS_ON=1
+LD_PRELOAD=/home/seed/lib/boost/libboost_program_options.so.1	LD_PRELOAD=/home/seed/lib/boost/libboost_program_options.so.1
+WINDOWID=20971524						WINDOWID=20971524
+UPSTART_SESSION=unix:abstract=/com/ubuntu/upstart-session/100	UPSTART_SESSION=unix:abstract=/com/ubuntu/upstart-session/100
+GNOME_KEYRING_CONTROL=						GNOME_KEYRING_CONTROL=
+GTK_MODULES=gail:atk-bridge:unity-gtk-module			GTK_MODULES=gail:atk-bridge:unity-gtk-module
+USER=seed							USER=seed
+LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=0	LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=0
+QT_ACCESSIBILITY=1						QT_ACCESSIBILITY=1
+LD_LIBRARY_PATH=/home/seed/source/boost_1_64_0/stage/lib:/hom	LD_LIBRARY_PATH=/home/seed/source/boost_1_64_0/stage/lib:/hom
+XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session0	XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session0
+XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0		XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0
+SSH_AUTH_SOCK=/run/user/1000/keyring/ssh			SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+DEFAULTS_PATH=/usr/share/gconf/ubuntu.default.path		DEFAULTS_PATH=/usr/share/gconf/ubuntu.default.path
+GIO_LAUNCHED_DESKTOP_FILE=/usr/share/applications/terminator.	GIO_LAUNCHED_DESKTOP_FILE=/usr/share/applications/terminator.
+XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/usr/share/upstart/xdg:/e	XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/usr/share/upstart/xdg:/e
+DESKTOP_SESSION=ubuntu						DESKTOP_SESSION=ubuntu
+PATH=/home/seed/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:	PATH=/home/seed/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:
+QT_IM_MODULE=ibus						QT_IM_MODULE=ibus
+QT_QPA_PLATFORMTHEME=appmenu-qt5				QT_QPA_PLATFORMTHEME=appmenu-qt5
+PWD=/home/seed/Desktop/compsec/Lab1-SetUID/Task2		PWD=/home/seed/Desktop/compsec/Lab1-SetUID/Task2
+XDG_SESSION_TYPE=x11						XDG_SESSION_TYPE=x11
+JOB=unity-settings-daemon					JOB=unity-settings-daemon
+XMODIFIERS=@im=ibus						XMODIFIERS=@im=ibus
+JAVA_HOME=/usr/lib/jvm/java-8-oracle				JAVA_HOME=/usr/lib/jvm/java-8-oracle
+GNOME_KEYRING_PID=						GNOME_KEYRING_PID=
+LANG=en_US.UTF-8						LANG=en_US.UTF-8
+GDM_LANG=en_US							GDM_LANG=en_US
+MANDATORY_PATH=/usr/share/gconf/ubuntu.mandatory.path		MANDATORY_PATH=/usr/share/gconf/ubuntu.mandatory.path
+COMPIZ_CONFIG_PROFILE=ubuntu-lowgfx				COMPIZ_CONFIG_PROFILE=ubuntu-lowgfx
+IM_CONFIG_PHASE=1						IM_CONFIG_PHASE=1
+GDMSESSION=ubuntu						GDMSESSION=ubuntu
+SESSIONTYPE=gnome-session					SESSIONTYPE=gnome-session
+GTK2_MODULES=overlay-scrollbar					GTK2_MODULES=overlay-scrollbar
+SHLVL=1								SHLVL=1
+HOME=/home/seed							HOME=/home/seed
+XDG_SEAT=seat0							XDG_SEAT=seat0
+LANGUAGE=en_US							LANGUAGE=en_US
+LIBGL_ALWAYS_SOFTWARE=1						LIBGL_ALWAYS_SOFTWARE=1
+GNOME_DESKTOP_SESSION_ID=this-is-deprecated			GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+UPSTART_INSTANCE=						UPSTART_INSTANCE=
+XDG_SESSION_DESKTOP=ubuntu					XDG_SESSION_DESKTOP=ubuntu
+UPSTART_EVENTS=xsession started					UPSTART_EVENTS=xsession started
+LOGNAME=seed							LOGNAME=seed
+COMPIZ_BIN_PATH=/usr/bin/					COMPIZ_BIN_PATH=/usr/bin/
+DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-3c3ETD8usf	DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-3c3ETD8usf
+J2SDKDIR=/usr/lib/jvm/java-8-oracle				J2SDKDIR=/usr/lib/jvm/java-8-oracle
+XDG_DATA_DIRS=/usr/share/ubuntu:/usr/share/gnome:/usr/local/s	XDG_DATA_DIRS=/usr/share/ubuntu:/usr/share/gnome:/usr/local/s
+QT4_IM_MODULE=xim						QT4_IM_MODULE=xim
+LESSOPEN=| /usr/bin/lesspipe %s					LESSOPEN=| /usr/bin/lesspipe %s
+INSTANCE=							INSTANCE=
+UPSTART_JOB=unity7						UPSTART_JOB=unity7
+XDG_RUNTIME_DIR=/run/user/1000					XDG_RUNTIME_DIR=/run/user/1000
+DISPLAY=:0							DISPLAY=:0
+XDG_CURRENT_DESKTOP=Unity					XDG_CURRENT_DESKTOP=Unity
+GTK_IM_MODULE=ibus						GTK_IM_MODULE=ibus
+J2REDIR=/usr/lib/jvm/java-8-oracle/jre				J2REDIR=/usr/lib/jvm/java-8-oracle/jre
+LESSCLOSE=/usr/bin/lesspipe %s %s				LESSCLOSE=/usr/bin/lesspipe %s %s
+XAUTHORITY=/home/seed/.Xauthority				XAUTHORITY=/home/seed/.Xauthority
+COLORTERM=gnome-terminal					COLORTERM=gnome-terminal
+_=./child						      |	_=./other
+							      >	XDG_VTNR=7
+							      >	ORBIT_SOCKETDIR=/tmp/orbit-seed
+							      >	XDG_SESSION_ID=c1
+							      >	XDG_GREETER_DATA_DIR=/var/lib/lightdm-data/seed
+							      >	IBUS_DISABLE_SNOOPER=1
+							      >	TERMINATOR_UUID=urn:uuid:df867526-8a45-4a8c-9dab-01c26f797e71
+							      >	CLUTTER_IM_MODULE=xim
+							      >	SESSION=ubuntu
+							      >	GIO_LAUNCHED_DESKTOP_FILE_PID=2910
+							      >	ANDROID_HOME=/home/seed/android/android-sdk-linux
+							      >	GPG_AGENT_INFO=/home/seed/.gnupg/S.gpg-agent:0:1
+							      >	TERM=xterm
+							      >	SHELL=/bin/bash
+							      >	DERBY_HOME=/usr/lib/jvm/java-8-oracle/db
+							      >	QT_LINUX_ACCESSIBILITY_ALWAYS_ON=1
+							      >	LD_PRELOAD=/home/seed/lib/boost/libboost_program_options.so.1
+							      >	WINDOWID=20971524
+							      >	UPSTART_SESSION=unix:abstract=/com/ubuntu/upstart-session/100
+							      >	GNOME_KEYRING_CONTROL=
+							      >	GTK_MODULES=gail:atk-bridge:unity-gtk-module
+							      >	USER=seed
+							      >	LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=0
+							      >	QT_ACCESSIBILITY=1
+							      >	LD_LIBRARY_PATH=/home/seed/source/boost_1_64_0/stage/lib:/hom
+							      >	XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session0
+							      >	XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0
+							      >	SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+							      >	DEFAULTS_PATH=/usr/share/gconf/ubuntu.default.path
+							      >	GIO_LAUNCHED_DESKTOP_FILE=/usr/share/applications/terminator.
+							      >	XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/usr/share/upstart/xdg:/e
+							      >	DESKTOP_SESSION=ubuntu
+							      >	PATH=/home/seed/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:
+							      >	QT_IM_MODULE=ibus
+							      >	QT_QPA_PLATFORMTHEME=appmenu-qt5
+							      >	PWD=/home/seed/Desktop/compsec/Lab1-SetUID/Task2
+							      >	XDG_SESSION_TYPE=x11
+							      >	JOB=unity-settings-daemon
+							      >	XMODIFIERS=@im=ibus
+							      >	JAVA_HOME=/usr/lib/jvm/java-8-oracle
+							      >	GNOME_KEYRING_PID=
+							      >	LANG=en_US.UTF-8
+							      >	GDM_LANG=en_US
+							      >	MANDATORY_PATH=/usr/share/gconf/ubuntu.mandatory.path
+							      >	COMPIZ_CONFIG_PROFILE=ubuntu-lowgfx
+							      >	IM_CONFIG_PHASE=1
+							      >	GDMSESSION=ubuntu
+							      >	SESSIONTYPE=gnome-session
+							      >	GTK2_MODULES=overlay-scrollbar
+							      >	SHLVL=1
+							      >	HOME=/home/seed
+							      >	XDG_SEAT=seat0
+							      >	LANGUAGE=en_US
+							      >	LIBGL_ALWAYS_SOFTWARE=1
+							      >	GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+							      >	UPSTART_INSTANCE=
+							      >	XDG_SESSION_DESKTOP=ubuntu
+							      >	UPSTART_EVENTS=xsession started
+							      >	LOGNAME=seed
+							      >	COMPIZ_BIN_PATH=/usr/bin/
+							      >	DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-3c3ETD8usf
+							      >	J2SDKDIR=/usr/lib/jvm/java-8-oracle
+							      >	XDG_DATA_DIRS=/usr/share/ubuntu:/usr/share/gnome:/usr/local/s
+							      >	QT4_IM_MODULE=xim
+							      >	LESSOPEN=| /usr/bin/lesspipe %s
+							      >	INSTANCE=
+							      >	UPSTART_JOB=unity7
+							      >	XDG_RUNTIME_DIR=/run/user/1000
+							      >	DISPLAY=:0
+							      >	XDG_CURRENT_DESKTOP=Unity
+							      >	GTK_IM_MODULE=ibus
+							      >	J2REDIR=/usr/lib/jvm/java-8-oracle/jre
+							      >	LESSCLOSE=/usr/bin/lesspipe %s %s
+							      >	XAUTHORITY=/home/seed/.Xauthority
+							      >	COLORTERM=gnome-terminal
+							      >	_=./other

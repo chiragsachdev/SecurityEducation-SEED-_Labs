@@ -1,0 +1,20 @@
+make[2]: Entering directory '/home/seed/Desktop/iSec/Lab8/Task4'
+ls -ld five.txt
+-rw-rw-r-- 1 seed seed 5 Apr  4 13:40 five.txt
+ls -ld five_ct.txt
+-rw-rw-r-- 1 seed seed 32 Apr  4 13:40 five_ct.txt
+ls -ld five_pt.txt
+-rw-rw-r-- 1 seed seed 16 Apr  4 13:40 five_pt.txt
+ls -ld ten.txt
+-rw-rw-r-- 1 seed seed 10 Apr  4 13:40 ten.txt
+ls -ld ten_ct.txt
+-rw-rw-r-- 1 seed seed 32 Apr  4 13:40 ten_ct.txt
+ls -ld ten_pt.txt
+-rw-rw-r-- 1 seed seed 16 Apr  4 13:40 ten_pt.txt
+ls -ld sixteen.txt
+-rw-rw-r-- 1 seed seed 16 Apr  4 13:40 sixteen.txt
+ls -ld sixteen_ct.txt
+-rw-rw-r-- 1 seed seed 48 Apr  4 13:40 sixteen_ct.txt
+ls -ld sixteen_pt.txt
+-rw-rw-r-- 1 seed seed 32 Apr  4 13:40 sixteen_pt.txt
+make[2]: Leaving directory '/home/seed/Desktop/iSec/Lab8/Task4'

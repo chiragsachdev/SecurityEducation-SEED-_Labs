@@ -1,0 +1,5 @@
+fmt = 0xbffff090
+msg = fmt + 0x1C (28) 
+return_addr = msg - 4 = 0xbffff08c
+buff = fmp + 0x5c (92 bytes) 0xbffff0d0 
+
